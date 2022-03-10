@@ -1,4 +1,7 @@
-@import url(https://pinkromeo18.github.io/x256/nu.css);
+@font-face {
+font-family: 'nu';
+  src: url('https://pinkromeo18.github.io/x256/NuKinakoMochiFwCt-Reg.otf') format('opentype');
+}
 /*
 body{
   background:#224;

@@ -1,6 +1,8 @@
 @font-face {
 font-family: 'nu';
-  src: url('https://pinkromeo18.github.io/x256/NuKinakoMochiFwCt-Reg.otf') format('opentype');
+  /*src: url('https://pinkromeo18.github.io/x256/NuKinakoMochiFwCt-Reg.otf') format('opentype');*/
+  src: url('https://pinkromeo18.github.io/x256/NuKinakoMochiCt-Reg.otf') format('opentype');
+
 }
 /*
 body{
@@ -28,6 +30,8 @@ body{
   transform:scale( var(--gain) );
   transform-origin: left top;
   line-height:1;
+
+  font-feature-settings:"fwid";    
 }
 
 .x256-child{
